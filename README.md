@@ -1,10 +1,14 @@
 # youtube-archiver
 
-Fill the playlists.txt and channels.txt with the playlist/channel you want to archive (the playlists have to be public).
+Some youtube archiver scripts using youtube_dl.
 
-Run the corresponding script `dl_channels.sh`/`dl_playlists.sh`.
+Create a `channels.txt` and/or a `playlists.txt` file with the channels/playlists youtube urls you want to archive (the playlists have to be public) and run the corresponding script `dl_channels.sh`/`dl_playlists.sh`.
 
-## TODO
+# Requirements
 
-- version only_audio
-- corriger nom fichier exportés
+- youtube_dl
+
+## Similar projects
+
+- <https://github.com/dmn001/youtube_channel_archiver>
+- <https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts>

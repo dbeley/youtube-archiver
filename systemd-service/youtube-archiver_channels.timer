@@ -1,0 +1,9 @@
+[Unit]
+Description=youtube-archiver_channels.timer
+
+[Timer]
+OnCalendar=*-*-* 2:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

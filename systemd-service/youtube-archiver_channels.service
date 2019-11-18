@@ -1,0 +1,9 @@
+[Unit]
+Description=youtube-archiver_channels.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Documents/youtube-archiver
+ExecStart=%h/Documents/youtube-archiver/dl_channels.sh
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=youtube-archiver_playlists.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Documents/youtube-archiver
+ExecStart=%h/Documents/youtube-archiver/dl_playlists.sh
+[Install]
+WantedBy=multi-user.target

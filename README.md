@@ -17,7 +17,7 @@ Fill the `channels.txt` and/or the `playlists.txt` file with the channels/playli
 
 Some systemd service files are provided to automatically run the scripts. They are provided in the systemd-service folder.
 
-The service files are the one running the script. The timer files allows the service to be run at a specific time.
+The service file is the one running the script. The timer file allows the service to be run at a specific time.
 
 The service files assumes the repository is located at `~/Documents/youtube-archiver`. You can change it by modifying the `WorkingDirectory` in the service files.
 

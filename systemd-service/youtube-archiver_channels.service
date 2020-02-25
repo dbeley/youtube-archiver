@@ -3,7 +3,9 @@ Description=youtube-archiver_channels.service
 
 [Service]
 Type=oneshot
-WorkingDirectory=%h/Documents/youtube-archiver
-ExecStart=%h/Documents/youtube-archiver/dl_channels.sh
+WorkingDirectory=%h/Disque500Go2/youtube-archiver
+# WorkingDirectory=%h/Documents/youtube-archiver
+ExecStart=%h/Disque500Go2/youtube-archiver/dl_channels.sh
+# ExecStart=%h/Documents/youtube-archiver/dl_channels.sh
 [Install]
 WantedBy=multi-user.target

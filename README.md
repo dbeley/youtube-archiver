@@ -1,6 +1,6 @@
 # youtube-archiver
 
-Some scripts to archive youtube channels or playlists using youtube-dl.
+Some scripts to archive youtube channels or playlists using yt-dlp.
 
 Fill the `channels.txt` and/or the `playlists.txt` file with the channels/playlists youtube urls you want to archive (the playlists have to be public or unlisted) and run the corresponding script `dl_channels.sh`/`dl_playlists.sh`.
 
@@ -11,7 +11,7 @@ Fill the `channels.txt` and/or the `playlists.txt` file with the channels/playli
 
 # Requirements
 
-- youtube-dl
+- yt-dlp
 
 # Systemd-service
 

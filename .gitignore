@@ -2,3 +2,6 @@ Channels/
 Playlists/
 tags
 .venv/
+*.txt
+*.backup
+*.json
